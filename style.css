@@ -1,0 +1,76 @@
+:root {
+  --green: #16db93;
+  --green-dark: #13bc7e;
+  --light-grey: #f1f4f6;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* misc stylings */
+ul li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.bg-green {
+  background-color: var(--green) !important;
+}
+
+.btn {
+  border: 2px solid #fff;
+  border-radius: 1.5rem;
+  padding: 0.6rem 0;
+  width: 160px;
+}
+
+/* header */
+header {
+  height: 100vh;
+}
+
+.navbar-brand .fa {
+  font-size: 1.3rem;
+}
+
+.nav-icons p {
+  font-size: 1rem;
+  margin-right: 0.6rem;
+}
+
+.nav-icons {
+  font-size: 1.2rem;
+}
+
+/* section 6 */
+#sec-6 {
+    background: linear-gradient(rgba(22, 219, 147, 0.9), rgba(22, 219, 147, 0.9)),
+      url(images/section-6-bg.jpg) center/cover no-repeat;
+  }
+  
+  #sec-6 .circle-icon {
+    width: 95px;
+    height: 95px;
+  }
+
+/* section 7 */
+.pricing-item{
+    border-radius: 0.3rem;
+    overflow: hidden;
+    max-width: 340px;
+}
+.pricing-title{
+    background-color: var(--green-dark);
+}
+.pricing-price, .pricing-item ul li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0.9rem 0;
+}
+.pricing-item .btn:hover{
+    background: transparent!important;
+    color: #fff;
+}
